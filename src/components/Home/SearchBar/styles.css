@@ -1,4 +1,8 @@
+/* styles.css */
+
+/* SearchBar Wrap Styles */
 .searchBar-wrap {
+    /* Set background color to #f0f0f0, width to fit its content, margin, padding, and border-radius */
     background-color: #f0f0f0;
     width: fit-content;
     margin: 2.5rem auto 4rem auto;
@@ -6,23 +10,31 @@
     border-radius: 5px;
 }
 
+/* SearchBar Form Styles */
 .searchBar-wrap form {
+    /* Set display to flex and align items to center */
     display: flex;
     align-items: center;
 }
 
+/* SearchBar Input Styles */
 .searchBar-wrap input {
+    /* Set background color to #f0f0f0, remove outline and border */
     background-color: #f0f0f0;
     outline: none;
     border: none;
 }
 
+/* SearchBar Span Styles */
 .searchBar-wrap span {
+    /* Add padding and set cursor to pointer */
     padding-right: 0.5rem;
     cursor: pointer;
 }
 
+/* SearchBar Button Styles */
 .searchBar-wrap button {
+    /* Remove outline and border, set padding, border-radius, background color, and text color */
     outline: none;
     border: none;
     padding: 0.3rem 1rem;
