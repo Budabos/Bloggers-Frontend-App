@@ -1,3 +1,7 @@
+// Home Component
+// This component represents the home page of the application.
+
+// Import React and necessary components, hooks, and styles
 import React, { useState } from 'react';
 import EmptyList from '../../components/common/EmptyList';
 import BlogList from '../../components/Home/BlogList';
@@ -5,7 +9,9 @@ import Header from '../../components/Home/Header';
 import SearchBar from '../../components/Home/SearchBar';
 import { blogList } from '../../config/data';
 
+// Define the Home component
 const Home = () => {
+  // State to manage the list of blogs and the search key
   const [blogs, setBlogs] = useState(blogList);
   const [searchKey, setSearchKey] = useState('');
 
@@ -49,4 +55,5 @@ const Home = () => {
   );
 };
 
+// Export the Home component as the default export of this module
 export default Home;
