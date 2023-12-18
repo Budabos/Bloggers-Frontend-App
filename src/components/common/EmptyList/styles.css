@@ -1,9 +1,15 @@
+/* styles.css */
+
+/* EmptyList Wrap Styles */
 .emptyList-wrap {
+    /* Set display to flex and justify-content to center */
     display: flex;
     justify-content: center;
 }
 
+/* EmptyList Image Styles */
 .emptyList-wrap img {
+    /* Set max-width to 250px and width to 100% */
     max-width: 250px;
     width: 100%;
 }
