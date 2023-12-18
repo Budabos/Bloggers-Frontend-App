@@ -1,23 +1,35 @@
+/* styles.css */
+
+/* Home Header Styles */
 .home-header {
+    /* Set text alignment to center */
     text-align: center;
 }
 
+/* Home Header h2 Styles */
 .home-header h2 {
+    /* Set text color to #0080ff, font size to 2rem */
     color: #0080ff;
     font-size: 2rem;
 }
 
+/* Home Header h1 Styles */
 .home-header h1 {
+    /* Set font size to 3rem, text color to #0f52ba, and bottom margin to 1rem */
     font-size: 3rem;
     color: #0f52ba;
     margin-bottom: 1rem;
 }
 
+/* Home Header h1 span Styles */
 .home-header h1 span {
+    /* Set text color to #b0c4de */
     color: #b0c4de;
 }
 
+/* Home Header p Styles */
 .home-header p {
+    /* Set text color to #a9a9a9, font weight to 500 */
     color: #a9a9a9;
     font-weight: 500;
 }
