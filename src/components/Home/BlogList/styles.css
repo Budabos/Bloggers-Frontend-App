@@ -1,17 +1,25 @@
+/* styles.css */
+
+/* BlogList Wrap Styles */
 .blogList-wrap {
+    /* Set display to grid with three columns and a gap of 3rem */
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     grid-gap: 3rem;
 }
 
+/* Media Query for Medium Screens (max-width: 768px) */
 @media (max-width: 768px) {
     .blogList-wrap {
+        /* Adjust grid columns to two for medium screens */
         grid-template-columns: repeat(2, 1fr);
     }
 }
 
+/* Media Query for Small Screens (max-width: 600px) */
 @media (max-width: 600px) {
     .blogList-wrap {
+        /* Adjust grid columns to one for small screens */
         grid-template-columns: repeat(1, 1fr);
     }
 }
