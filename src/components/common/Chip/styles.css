@@ -1,9 +1,25 @@
+/* styles.css */
+
+/* Chip Styles */
 .chip {
+    /* Set font size to 0.7rem */
     font-size: 0.7rem;
+
+    /* Apply linear gradient background from #6190e8 to #a7bfe8 */
     background: linear-gradient(to right, #6190e8, #a7bfe8);
+
+    /* Set text color to white */
     color: #fff;
+
+    /* Add padding to the top and bottom (0.3rem), and left and right (0.5rem) */
     padding: 0.3rem 0.5rem;
+
+    /* Add border-radius for rounded corners */
     border-radius: 5px;
+
+    /* Set width to fit its content */
     width: fit-content;
+
+    /* Transform text to capitalize */
     text-transform: capitalize;
 }
