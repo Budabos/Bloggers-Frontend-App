@@ -1,9 +1,15 @@
+/* styles.css */
+
+/* Blog Wrap Styles */
 .blog-wrap {
+    /* Set maximum width to 700px and center-align using margin */
     max-width: 700px;
     margin: 0 auto;
 }
 
+/* Blog GoBack Styles */
 .blog-goBack {
+    /* Remove text decoration, set font size, color, font weight, margin, and display as block */
     text-decoration: none;
     font-size: 0.8rem;
     color: #a9a9a9;
@@ -12,30 +18,42 @@
     display: block;
 }
 
+/* Blog Header Styles */
 .blog-wrap header {
+    /* Center-align text within the header */
     text-align: center;
 }
 
+/* Blog Date Styles */
 .blog-date {
+    /* Set font size, color, and font weight */
     font-size: 0.8rem;
     color: #a9a9a9;
     font-weight: 500;
 }
 
+/* Blog Image Styles */
 .blog-wrap img {
+    /* Set width to 100% to ensure responsive images */
     width: 100%;
 }
 
+/* Blog SubCategory Styles */
 .blog-subCategory {
+    /* Set display to flex and justify content to center */
     display: flex;
     justify-content: center;
 }
 
+/* Blog SubCategory Item Styles */
 .blog-subCategory>div {
+    /* Add margin around subcategory items */
     margin: 1rem;
 }
 
+/* Blog Description Styles */
 .blog-desc {
+    /* Add padding and margin to the blog description */
     padding: 1rem;
     margin-top: 1.5rem;
 }
