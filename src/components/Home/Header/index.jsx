@@ -3,13 +3,14 @@ import './styles.css';
 
 const Header = () => (
   <header className='home-header'>
-    <h2>Inc. This Morning</h2>
+    <h2>Welcome To</h2>
     <h1>
-      <span>“</span> Blog <span>”</span>
+      <span>“</span> The Daily Chronicle <span>”</span>
     </h1>
     <p>
-      awesome place to make oneself <br /> productive and entertained through
-      daily updates.
+      Explore the world of knowledge and inspiration through our daily blog
+      posts. <br /> Join us on a journey of discovery, learning, and creativity. Let's
+      make each day extraordinary together!
     </p>
   </header>
 );
