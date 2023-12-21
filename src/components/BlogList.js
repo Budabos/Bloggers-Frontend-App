@@ -64,10 +64,10 @@ export const BlogPostForm = ({ isOpen, onClose }) => {
       .then((res) => {
         if (res.message) {
           // Display success message
-          toast.success(res.message, { duration: 5000 });
+          toast.success(res.message, { duration: 3000 });
         } else {
           // Display error message
-          toast.error(res.detail, { duration: 6000 });
+          toast.error(res.detail, { duration: 4000 });
         }
 
         // Reset loading state and close the modal
